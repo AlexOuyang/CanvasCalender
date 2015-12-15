@@ -1,35 +1,3 @@
-//var canvas = document.getElementById('myCanvas');
-//canvas.width = window.innerWidth;
-//canvas.height = window.innerHeight;
-//var context = canvas.getContext('2d');
-//
-//var calender = function (context, beginingHour, endingHour, step) {
-//    this.context = context;
-//    this.beginingHour = beginingHour;
-//    this.endingHour = endingHour;
-//    this.step = step;
-//
-//    this.addClass = function (x, y, width, height, color) {
-//        this.context.beginPath();
-//        this.context.rect(x, y, width, height); // rect(x,y,width, height)
-//        this.context.fillStyle = color;
-//        this.context.fill();
-//        //this.context.lineWidth = 7;
-//        //this.context.strokeStyle = 'black';   // Add a sexy outline
-//        this.context.stroke();
-//    }
-//}
-//
-//
-//
-//var calender = new calender(context, 8, 20, 20);
-//calender.addClass(100, 100, 100, 100, 'green');
-
-
-
-
-
-
 function createCalender(w_scale, h_scale) {
     var canvas = document.getElementById('myCanvas');
     var context = canvas.getContext('2d');
